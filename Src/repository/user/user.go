@@ -5,8 +5,8 @@ import (
 
 	"gorm.io/gorm"
 
-	"ECOMERS/database"
-	"ECOMERS/utils/models"
+	"SNAPNIX/database"
+	"SNAPNIX/utils/models"
 )
 
 func GetUserByEmail(email string) (*models.User, error) {

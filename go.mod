@@ -1,4 +1,4 @@
-module ECOMERS
+module SNAPNIX
 
 go 1.22.1
 

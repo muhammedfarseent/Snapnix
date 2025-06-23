@@ -1,15 +1,14 @@
 package controlller
 
 import (
+	services "SNAPNIX/Src/services/user"
+	"SNAPNIX/utils/models"
+	response "SNAPNIX/utils/response"
 	"net/http"
 
 	"github.com/gin-gonic/gin"
 	"github.com/go-playground/validator"
 	// "github.com/go-playground/validator"
-
-	services "ECOMERS/Src/services/user"
-	"ECOMERS/utils/models"
-	response "ECOMERS/utils/response"
 )
 
 func UserSignUp(c *gin.Context) {

@@ -6,7 +6,7 @@ import (
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 
-	"ECOMERS/config"
+	"SNAPNIX/config"
 )
 
 var DB *gorm.DB

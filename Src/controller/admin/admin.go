@@ -1,11 +1,10 @@
 package controlller
 
 import (
+	services "SNAPNIX/Src/services/admin"
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-
-	services "ECOMERS/Src/services/admin"
 )
 
 type AuthHandler struct {

@@ -1,10 +1,10 @@
 package routes
 
 import (
+	controller "SNAPNIX/Src/controller/user"
+
 	"github.com/gin-gonic/gin"
 	"gorm.io/gorm"
-
-	controller "ECOMERS/Src/controller/user"
 )
 
 func UserRoutes(r *gin.RouterGroup, db *gorm.DB) *gin.RouterGroup {

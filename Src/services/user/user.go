@@ -5,9 +5,9 @@ import (
 
 	"golang.org/x/crypto/bcrypt"
 
-	repository "ECOMERS/Src/repository/user"
-	"ECOMERS/utils/helper"
-	"ECOMERS/utils/models"
+	repository "SNAPNIX/Src/repository/user"
+	"SNAPNIX/utils/helper"
+	"SNAPNIX/utils/models"
 )
 
 func UserSignUp(req models.SignUpRequest) error {

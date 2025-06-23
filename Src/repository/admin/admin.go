@@ -1,9 +1,9 @@
 package repository
 
 import (
-	"gorm.io/gorm"
+	"SNAPNIX/utils/models"
 
-	"ECOMERS/utils/models"
+	"gorm.io/gorm"
 )
 
 type AdminRepository struct {

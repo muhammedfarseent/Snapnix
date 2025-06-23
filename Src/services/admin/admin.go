@@ -1,11 +1,10 @@
 package services
 
 import (
+	repository "SNAPNIX/Src/repository/admin"
+	"SNAPNIX/utils/helper"
+	"SNAPNIX/utils/models"
 	"errors"
-
-	repository "ECOMERS/Src/repository/admin"
-	"ECOMERS/utils/helper"
-	"ECOMERS/utils/models"
 )
 
 type AuthService struct {

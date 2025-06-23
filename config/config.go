@@ -20,7 +20,7 @@ type Config struct {
 func LoadConfig() (Config, error) {
 	var config Config
 
-	viper.SetConfigFile("../.env")
+	viper.SetConfigFile(".env")
 	viper.SetConfigType("env")
 	viper.AutomaticEnv()
 

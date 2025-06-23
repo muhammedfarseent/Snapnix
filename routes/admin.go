@@ -1,12 +1,12 @@
 package routes
 
 import (
+	controller "SNAPNIX/Src/controller/admin"
+	repository "SNAPNIX/Src/repository/admin"
+	services "SNAPNIX/Src/services/admin"
+
 	"github.com/gin-gonic/gin"
 	"gorm.io/gorm"
-
-	controller "ECOMERS/Src/controller/admin"
-	repository "ECOMERS/Src/repository/admin"
-	services "ECOMERS/Src/services/admin"
 )
 
 func AdminRoutes(r *gin.RouterGroup, db *gorm.DB) *gin.RouterGroup {

@@ -5,7 +5,7 @@ import (
 
 	"gorm.io/gorm"
 
-	"ECOMERS/utils/models"
+	"SNAPNIX/utils/models"
 )
 
 func Migrate(db *gorm.DB) {
