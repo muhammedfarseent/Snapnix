@@ -1,13 +1,14 @@
 package main
 
 import (
+	"log"
+
+	"github.com/gin-gonic/gin"
+
 	"SNAPNIX/config"
 	"SNAPNIX/database"
 	"SNAPNIX/migration"
 	"SNAPNIX/routes"
-	"log"
-
-	"github.com/gin-gonic/gin"
 )
 
 func main() {

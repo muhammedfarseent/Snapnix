@@ -3,9 +3,9 @@ package migration
 import (
 	"log"
 
-	"gorm.io/gorm"
-
 	"SNAPNIX/utils/models"
+
+	"gorm.io/gorm"
 )
 
 func Migrate(db *gorm.DB) {
